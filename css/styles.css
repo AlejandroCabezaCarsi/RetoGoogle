@@ -1,8 +1,239 @@
-.body {
+body {
     margin: 0;
     padding: 0;
-
     height: 100vh;
     width: 100vw;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.header{ 
+    display: flex;
+    flex-direction: row;
+    height: 9%;
+}
+
+
+
+.sobreGoogle { 
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tienda { 
+    height: 100% ;
+    width: 6%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacioBlancoHeader{ 
+
+    height: 100%;
+    width: 54%;
+
+}
+.gmail{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes { 
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplicacionesGoogle{ 
+    height: 100%;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.puntitos{ 
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.fotoPuntitos{ 
+    width: 50%;
+    height: 50%;
+}
+
+.perfil { 
+    height: 100%;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoCircular{ 
+    height: 70%;
+    width: 45%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.cuerpo { 
+    display: flex;
+    flex-direction: column;
+    height: 91%;
+}
+
+.fila1{ 
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.rellenoCuerpo1{ 
+    height: 100%;
+    width: 20%;
+    
+}
+
+.contenidoCuerpo { 
+    height: 100%;
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.logoGoogle{ 
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotoGoogle{ 
+    height: 100%;
+    background-image: url(../img/logo-Google.png);
+}
+
+.rellenoCuerpo2{ 
+    height: 100%;
+    width: 20%;
+    
+}
+
+.barraBusqueda{ 
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscadorRedondeado { 
+    width: 80%;
+    height: 100%;
+
+    border-radius: 2em;
+    box-shadow: 0 0 0.2em 0.1em grey;
+}
+
+.voyATenerSuerte { 
+    width: 100%;
+    height: 30%;
+}
+
+
+.botones { 
+    width: 100%;
+    height: 100%;
+}
+
+.contenidoBotones { 
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    flex-direction: row;
+}
+
+.buscar { 
+    background-color: rgb(241, 239, 239);
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+.suerte{ 
+    background-color: rgb(241, 239, 239);
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+.boton1 {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    
+
+}
+.boton2 {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.idiomas{ 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.idiomasColor { 
+    margin: 0em;
+    margin-left: 1em;
+    padding: 0em;
+    color: blue;
 }
 
